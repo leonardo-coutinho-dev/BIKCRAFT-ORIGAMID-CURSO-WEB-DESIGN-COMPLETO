@@ -1,0 +1,8 @@
+alterações:
+
+- padronizar (CSS/HTML) as sequencias de 3 divs (produtos, portfolio e qualidade) para reutilizar o código;
+- usar HTML5 (header, section, footer, blockquote, ...);
+- padronizar o container (usar o container em todas as sections);
+- deixar apenas uma tag h1 (header principal);
+- melhorar a notação das classes e verificar o efeito cascata (prioridades - separar os diferentes elementos - não deixar reescrever);
+- separar as seções do css em vários arquivos;
