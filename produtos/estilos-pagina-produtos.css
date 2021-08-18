@@ -220,8 +220,32 @@ nav .container .menu-bottom a {
   padding-bottom: 20px;
 }
 
-.section-textos h2 {
-  padding: 20px 0;
+.section-textos .container {
+  padding-top: 20px;
+}
+
+.section-textos .container .background-1 {
+  background: url("../img/foto-titulo.png") no-repeat center;
+}
+
+.section-textos .container .background-2 {
+  background: url("../img/foto-titulo-1.png") no-repeat center;
+}
+
+.section-textos .container .div-texto-2 {
+  background-color: #000000;
+}
+
+.section-textos .container .div-texto-1, .section-textos .container .div-texto-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-textos h3 {
+  color: white;
+  text-align: center;
+ font-size: 25px;
 }
 
 .section-textos p, .section-textos ul li {
@@ -230,12 +254,6 @@ nav .container .menu-bottom a {
     line-height: 20px;
     letter-spacing: 0.4px;
     color: #000000;
-}
-
-.section-textos img {
-  width: 100%;
-  display: block;
-  padding-top: 20px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -247,134 +265,9 @@ nav .container .menu-bottom a {
     height: 190px;
     width: 476px;
   }
-  .section-textos {
-    padding: 0;
-  }
 }
 
   /*  section textos*/
-
-  
-/* section qualidade */
-
-/* section qualidade - PADRÃO */
-
-.section-qualidade {
-    position: relative;
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .section-qualidade h2 {
-    color: #000000;
-    display: block;
-  }
-  
-  .section-qualidade p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-    color: #000000;
-  }
-  
-  /* section qualidade - PADRÃO */
-  
-  .section-qualidade .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .section-qualidade .container .logo {
-    z-index: 1;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    background-color: #000000;
-  }
-  
-  .section-qualidade .container .container-2-divs-com-bordas {
-    display: none;
-  }
-  
-  @media only screen and (min-width: 1023px) {
-  
-    .section-qualidade .container .container-2-divs-com-bordas {
-      position: absolute;
-      top: 150px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 685px;
-    }
-  
-    .section-qualidade .container .container-2-divs-com-bordas .div-com-borda {
-      width: 50%;
-      height: 105px;
-    }
-    
-    .section-qualidade .container .container-2-divs-com-bordas .div-borda-esquerda, .section-qualidade .container .container-2-divs-com-bordas .div-borda-direita {
-      border-right: #fec63e 3px solid;
-      border-top: #fec63e 3px solid;
-    }
-
-    .section-qualidade .container .container-2-divs-com-bordas .div-borda-esquerda {
-      border-left: #fec63e 3px solid;
-    }
-  
-  }
-  
-  .section-qualidade .container-box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    .section-qualidade .container-box {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
-  
-  .section-qualidade .container .container-box .qualidades {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 290px;
-    background-color: #fec63e;
-  }
-  
-  .section-qualidade .container .container-box .qualidade-1, .section-qualidade .container .container-box .qualidade-2 {
-    margin-bottom: 20px;
-  }
-  
-  @media only screen and (min-width: 1023px) {
-    .section-qualidade .container .container-box .qualidade-1, .section-qualidade .container .container-box .qualidade-2 {
-      margin-bottom: 0;
-    }
-  }
-  
-  .section-qualidade .container .container-box h2 {
-    width: 250px;
-    padding: 20px 0;
-  }
-  
-  .section-qualidade .container .container-box p {
-    width: 250px;
-    padding-bottom: 20px;
-  }
-  
-  /* section qualidade */
 
   /* section formulario*/
 

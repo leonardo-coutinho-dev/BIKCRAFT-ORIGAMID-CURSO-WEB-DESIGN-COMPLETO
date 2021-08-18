@@ -137,7 +137,7 @@ nav .container .menu-top a {
 }
 
 nav .container .menu-top a.ativo, nav .container .menu-bottom a.ativo {
-    color: #ffffff;
+  color: #ffffff;
 }
   
 @media only screen and (min-width:768px) {
@@ -184,7 +184,7 @@ nav .container .menu-bottom a {
 .section-introducao {
     width: 100%;
     height: 160px;
-    background: url("../img/bg-portfolio.jpg") no-repeat center;
+    background: url("../img/esporte-2.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -214,108 +214,167 @@ nav .container .menu-bottom a {
   
   /* section introdução */
 
-  /* section texto carrossel */
+  /*  section textos */
 
-  .section-citacao-carrossel {
-    width: 100%;
-    height: 150px;
-  }  
+.section-textos {
+  padding-bottom: 20px;
+}
 
-  .section-citacao-carrossel .container {
-    height: 100%;
+.section-textos h2 {
+  padding: 20px 0;
+}
+
+.section-textos p, .section-textos ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+
+.section-textos img {
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .section-textos .container {
+    flex-direction: row;
+    justify-content: space-between;
   }
-
-  .section-citacao-carrossel .container .div-textos {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .section-textos .container .box-5 {
+    height: 190px;
+    width: 476px;
   }
-
-  .section-citacao-carrossel .container .div-textos h1,
-  .section-citacao-carrossel .container .div-textos blockquote {
-    text-align: center;
+  .section-textos {
+    padding: 0;
   }
+}
 
-  .section-citacao-carrossel .container .div-textos blockquote p {
-    display: block;
-    padding-top: 20px;
-    font-size: 13px;
-    padding-top: 10px;
-  }
+  /*  section textos*/
 
-  .section-citacao-carrossel .container .div-textos blockquote cite {
-    display: block;
-    padding-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    padding-top: 10px;
-  }
-
-  /* section texto carrossel */
-
-  /*  section imagens */
-
-  .section-imagens {
-    padding-bottom: 20px;
-  }
   
-  .section-imagens img {
-    width: 100%;
-    display: block;
-    padding-top: 20px;
-  }
-  
-  .section-imagens .container-2 img {
-    width: 100%;
-  }
+/* section qualidade */
 
-  @media only screen and (min-width: 1024px) {
-    .section-imagens .container-2 img {
-      width: 476px;
-    }
-  }
+/* section qualidade - PADRÃO */
 
-  @media only screen and (min-width: 1024px) {
-    .section-imagens .container {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
-  
-    /*  section imagens*/
-    
-/* section citação */
-
-.section-citacao {
+.section-qualidade {
+    position: relative;
     width: 100%;
-    height: 220px;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url("../img/bg-footer.jpg") no-repeat center;
-    background-size: cover;
   }
   
-  .section-citacao .container p,
-  .section-citacao .container cite {
+  .section-qualidade h2 {
+    color: #000000;
+    display: block;
+  }
+  
+  .section-qualidade p {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.4px;
-    color: #ffffff;
+    color: #000000;
   }
   
-  .section-citacao .container cite {
-    display: block;
-    padding-top: 20px;
-    font-weight: bold;
+  /* section qualidade - PADRÃO */
+  
+  .section-qualidade .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  /* section citação */  
+  .section-qualidade .container .logo {
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #000000;
+  }
+  
+  .section-qualidade .container .container-2-divs-com-bordas {
+    display: none;
+  }
+  
+  @media only screen and (min-width: 1023px) {
+  
+    .section-qualidade .container .container-2-divs-com-bordas {
+      position: absolute;
+      top: 150px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 685px;
+    }
+  
+    .section-qualidade .container .container-2-divs-com-bordas .div-com-borda {
+      width: 50%;
+      height: 105px;
+    }
+    
+    .section-qualidade .container .container-2-divs-com-bordas .div-borda-esquerda, .section-qualidade .container .container-2-divs-com-bordas .div-borda-direita {
+      border-right: #fec63e 3px solid;
+      border-top: #fec63e 3px solid;
+    }
+
+    .section-qualidade .container .container-2-divs-com-bordas .div-borda-esquerda {
+      border-left: #fec63e 3px solid;
+    }
+  
+  }
+  
+  .section-qualidade .container-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .section-qualidade .container-box {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .section-qualidade .container .container-box .qualidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    background-color: #fec63e;
+  }
+  
+  .section-qualidade .container .container-box .qualidade-1, .section-qualidade .container .container-box .qualidade-2 {
+    margin-bottom: 20px;
+  }
+  
+  @media only screen and (min-width: 1023px) {
+    .section-qualidade .container .container-box .qualidade-1, .section-qualidade .container .container-box .qualidade-2 {
+      margin-bottom: 0;
+    }
+  }
+  
+  .section-qualidade .container .container-box h2 {
+    width: 250px;
+    padding: 20px 0;
+  }
+  
+  .section-qualidade .container .container-box p {
+    width: 250px;
+    padding-bottom: 20px;
+  }
+  
+  /* section qualidade */
 
   /* footer */
 
