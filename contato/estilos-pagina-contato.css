@@ -214,34 +214,11 @@ nav .container .menu-bottom a {
   
   /* section introdução */
 
-  /*
-  section map
-  */
-  
-  .section-map {
-    width: 100%;
-    height: 400px;
-  }
-
-  .section-map .container {
-    height: 100%;
-  }
-
-  .section-map .map-container {
-    width: 100%;
-    height: 100%;
-    background: url("../img/mapa.png") no-repeat center;
-  }
-
-  /*
-  section map
-  */
-
   /* section formulario*/
 
   .section-formulario {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #F8F8F8;
+    color: #000000;
   }
 
   .section-formulario .container {
@@ -276,9 +253,12 @@ nav .container .menu-bottom a {
     letter-spacing: 0.1em;
     color: #fec63e;
     border: #fec63e 4px solid;
-    background-color: #000000;
+    background-color: #F8F8F8;
   }
 
+  .section-formulario .container .container-formulario form input, .section-formulario .container .container-formulario form textarea {
+    color: #000000;
+  }
   .section-formulario .container-formulario-dados .container-formulario textarea {
     height: 150px;
   }
@@ -304,7 +284,7 @@ nav .container .menu-bottom a {
   }
 
   .section-formulario .container-dados ul li:nth-child(even) {
-    background-color: #1D1D1D;
+    background-color: #ffffff;
   }
 
   @media only screen and (min-width: 972px) {
@@ -322,36 +302,22 @@ nav .container .menu-bottom a {
   
   /* section formulario*/
 
-/* section citação */
-
-.section-citacao {
+  
+  /*
+  section map
+  */
+  
+  .section-map {
     width: 100%;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url("../img/bg-footer.jpg") no-repeat center;
-    background-size: cover;
+    padding: 20px 0;
   }
-  
-  .section-citacao .container p,
-  .section-citacao .container cite {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-    color: #ffffff;
+
+  .section-map .container {
+    height: 100%;
   }
-  
-  .section-citacao .container cite {
-    display: block;
-    padding-top: 20px;
-    font-weight: bold;
-  }
-  
-  /* section citação */  
+  /*
+  section map
+  */
 
   /* footer */
 

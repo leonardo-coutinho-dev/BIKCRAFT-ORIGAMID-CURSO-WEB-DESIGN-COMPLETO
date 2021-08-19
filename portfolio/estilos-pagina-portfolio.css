@@ -218,7 +218,8 @@ nav .container .menu-bottom a {
 
   .section-citacao-carrossel {
     width: 100%;
-    height: 150px;
+    height: 180px;
+    background-color: #ffffff;
   }  
 
   .section-citacao-carrossel .container {
@@ -226,11 +227,12 @@ nav .container .menu-bottom a {
   }
 
   .section-citacao-carrossel .container .div-textos {
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #000000;
   }
 
   .section-citacao-carrossel .container .div-textos h1,
@@ -241,7 +243,7 @@ nav .container .menu-bottom a {
   .section-citacao-carrossel .container .div-textos blockquote p {
     display: block;
     padding-top: 20px;
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 10px;
   }
 
@@ -250,7 +252,7 @@ nav .container .menu-bottom a {
     padding-top: 20px;
     font-size: 16px;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
   /* section texto carrossel */
@@ -259,6 +261,7 @@ nav .container .menu-bottom a {
 
   .section-imagens {
     padding-bottom: 20px;
+    background-color: #000000;
   }
   
   .section-imagens img {
@@ -266,7 +269,7 @@ nav .container .menu-bottom a {
     display: block;
     padding-top: 20px;
   }
-  
+
   .section-imagens .container-2 img {
     width: 100%;
   }
