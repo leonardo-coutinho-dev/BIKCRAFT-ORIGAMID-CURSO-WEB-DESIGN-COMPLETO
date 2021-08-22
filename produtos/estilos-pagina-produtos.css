@@ -225,21 +225,9 @@ nav .container .menu-bottom a {
 }
 
 .section-textos .container .background-1 {
+  height: 100px;
   background: url("../img/foto-titulo.png") no-repeat center;
-}
-
-.section-textos .container .background-2 {
-  background: url("../img/foto-titulo-1.png") no-repeat center;
-}
-
-.section-textos .container .div-texto-2 {
-  background-color: #000000;
-}
-
-.section-textos .container .div-texto-1, .section-textos .container .div-texto-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-size: cover;
 }
 
 .section-textos h3 {
@@ -248,23 +236,58 @@ nav .container .menu-bottom a {
  font-size: 25px;
 }
 
-.section-textos p, .section-textos ul li {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-    color: #000000;
+.section-textos .container .background-2 {
+  height: 100px;
+  margin-top: 10px;
+  background: url("../img/foto-titulo-1.png") no-repeat center;
+  background-size: cover;
 }
 
-@media only screen and (min-width: 1024px) {
-  .section-textos .container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .section-textos .container .box-5 {
-    height: 190px;
-    width: 476px;
-  }
+.section-textos .container .div-titulo, .section-textos .container .div-texto-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-textos .container .div-texto-2 {
+  margin-top: 10px;
+  background-color: #000000;
+}
+
+.section-textos .container .div-texto-2 img {
+  margin: 20px 0;
+}
+
+.section-textos .container .div-texto-2 .container-texto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-textos .container .div-texto-2 .container-texto p {
+  width: 90%;
+  padding: 20px 0;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}
+
+.section-textos .container .div-texto-2 .container-texto ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.section-textos .container .div-texto-2 .container-texto li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fec63e;
+  color: #000;
+  font-weight: bold;
 }
 
   /*  section textos*/
